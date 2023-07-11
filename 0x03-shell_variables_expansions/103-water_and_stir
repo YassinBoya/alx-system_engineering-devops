@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "ibase=water; obase=bestchol; $WATER + $STIR" | bc
+printf "ibase=water obase=bestchol $WATER + $STIR" | bc
