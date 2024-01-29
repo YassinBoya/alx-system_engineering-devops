@@ -4,10 +4,7 @@
 for file in *; do
     # Check if the file is not a hidden file
     if [ "${file:0:1}" != "." ]; then
-        # Extract the part of the name after the first dash
-        name_after_dash=$(echo "$file" | cut -d'-' -f2-)
-        
-        # Print the formatted output
-        echo "$name_after_dash"
+        name_file=$(echo "$file" | cut -d'-' -f2-)
+        echo "$name_file"
     fi
 done
