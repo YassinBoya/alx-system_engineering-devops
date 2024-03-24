@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-Host your_server_alias_or_IP
+Host *
     HostName <192.168.1.105>
     User <escanner>
     IdentityFile ~/.ssh/school
