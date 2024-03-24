@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # a Bash script that creates an RSA key pair
 
-ssh-keygen -t school -b 4096 -C "hnyassin1@gmail.com"
+ssh-keygen -t rsa -b 4096 -f "school" -P betty
