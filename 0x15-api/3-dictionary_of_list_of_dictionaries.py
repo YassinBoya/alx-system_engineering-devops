@@ -29,7 +29,7 @@ if __name__ == "__main__":
                     "completed": obj.get('completed'),
                     "username": username
                 }
-        builder[user_id_key].append(json_data)
+			builder[user_id_key].append(json_data)
 
     # write the data to the file
     json_encoded_data = json.dumps(builder)
