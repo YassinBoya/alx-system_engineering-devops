@@ -9,9 +9,9 @@ def top_ten(subreddit):
     import requests
     sub_data = requests.get("https://www.reddit.com/{}/hot.json?limit=10"
                             .format(subreddit),
-                            headers={"User-Agenet": "My-User-Agent"},
-                            allow_redirects=False)
-    if sub_data >= 300:
+                            headers = {"User-Agenet": "My-User-Agent"},
+                            allow_redirects = False)
+    if sub_data.status_code >= 300:
         print('None')
     else:
         for child in sub_info.json().get("data").get("children"):
