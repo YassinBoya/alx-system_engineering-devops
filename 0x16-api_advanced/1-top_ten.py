@@ -7,10 +7,10 @@ def top_ten(subreddit):
     the first 10 hot posts listed for a given subreddit"""
 
     import requests
-    sub_data = requests.get("https://www.reddit.com/{}/hot.json?limit=10"
+    sub_data = requests.get("https://www.reddit.com/r/{}/hot.json?limit=10"
                             .format(subreddit),
-                            headers = {"User-Agenet": "My-User-Agent"},
-                            allow_redirects = False)
+                            headers={"User-Agenet": "My-User-Agent"},
+                            allow_redirects=False)
     if sub_data.status_code >= 300:
         print('None')
     else:
