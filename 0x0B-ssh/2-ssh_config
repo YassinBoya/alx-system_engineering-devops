@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-Host *
-    User ubuntu
-    IdentityFile ~/.ssh/school
-    PasswordAuthentication no
