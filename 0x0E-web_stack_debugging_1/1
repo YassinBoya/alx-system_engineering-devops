@@ -1,3 +1,6 @@
-sed: couldn't open temporary file /etc/nginx/sites-enabled/sedk1jmS0: Permission denied
- * Restarting nginx nginx
+mv: cannot move '/etc/nginx/sites-available/default' to '/etc/nginx/sites-enabled/default': Permission denied
+cp: '/etc/nginx/sites-enabled/default' and '/etc/nginx/sites-available/default' are the same file
+ * Stopping nginx nginx
+   ...done.
+ * Starting nginx nginx
    ...fail!
