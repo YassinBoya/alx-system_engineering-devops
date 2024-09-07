@@ -1,4 +1,4 @@
-![Postmortem](0x19-postmortem/image.gif)
+![Postmortem](image.gif)
 
 Postmortem Report: Web Application Outage
 Issue Summary
